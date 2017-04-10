@@ -1,0 +1,15 @@
+c=document.createElement('canvas');
+c.width = 800;
+c.height = 800;
+document.body.appendChild(c);
+ctx = c.getContext('2d');
+ctx.beginPath;
+ctx.fillRect(0,0,700,700);
+ctx.fillStyle = 'pink';
+ctx.fillRect(0,0,700,700);
+ctx.fillStyle = 'green';
+ctx.fillRect(0,0,300,300);
+ctx.fillStyle = 'blue';
+ctx.fillRect(20,20,200,200);
+ctx.fillStyle = 'red';
+ctx.fillRect(40,40,160,160);
